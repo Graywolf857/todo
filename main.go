@@ -40,13 +40,13 @@ func main(){
 		
 
 		//ask user what they want to do
-		fmt.Println("Would you like to do? (Use commands like 'add', 'remove', or 'q' to quit)")
+		fmt.Println("Would you like to do? (Use commands like a (add), r (remove), or 'q' to quit)")
 		scanner.Scan()
 		mainInput := scanner.Text()
 		
 
 		//do things with input
-		if mainInput == "add" {
+		if mainInput == "a" {
 			
 			var n int
 			
@@ -85,7 +85,7 @@ func main(){
 			break 
 		
 		//removing chore
-		}else if mainInput == "remove" {
+		}else if mainInput == "r" {
 			var y int		
 			for y == 0{
 				//removing specific chore
